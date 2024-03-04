@@ -1,0 +1,656 @@
+Q=1
+ANS=#include<bits/stdc++.h>
+using namespace std;
+void recursion(int n)
+{
+    if(n<0)
+        return;
+   
+    recursion(n-1);
+    cout<<n<<" ";
+}
+int main()
+{
+    int n;
+    cout<<"Enter the value of n:\n";
+    cin>>n;
+    recursion(n);
+}
+**********************************************************************
+Q=2
+ANS=#include<bits/stdc++.h>
+using namespace std;
+void recursion(int n)
+{
+    if(n<0)
+        return;
+   cout<<n<<" ";
+    recursion(n-1);
+     
+}
+int main()
+{
+    int n;
+    cout<<"Enter the value of n:\n";
+    cin>>n;
+    recursion(n);
+}
+**********************************************************************
+Q=3
+ANS=#include<bits/stdc++.h>
+using namespace std;
+void recursion(int n)
+{
+    if(n<2)
+        return;
+    recursion(n-2);
+    cout<<n<<" ";
+     
+}
+int main()
+{
+    int n;
+    cout<<"Enter the value of n:\n";
+    cin>>n;
+    recursion(n);
+}
+**********************************************************************
+Q=4
+ANS=#include<bits/stdc++.h>
+using namespace std;
+void malti(int n , int m)
+{
+    if(n<=0)
+        return;
+    malti(n-1,4);
+    cout<<n*m<<" ";
+}
+int main()
+{
+    int n;
+    cout<<"Enter the value of n:\n";
+    cin>>n;
+    malti(n,4);
+}
+**********************************************************************
+Q=5
+ANS=#include<bits/stdc++.h>
+using namespace std;
+void sum(int n)
+{
+    if(n<=0)
+        return;
+    sum(n-1);
+    cout<<n+n<<" ";
+}
+
+int main()
+{
+    int n=15;
+    sum(n);
+}
+**********************************************************************
+Q=6
+ANS=#include<bits/stdc++.h>
+using namespace std;
+void sum(int n)
+{
+    if(n<=0)
+        return;
+    sum(n-1);
+    cout<<n*n<<" ";
+}
+
+int main()
+{
+    int n=6;
+    sum(n);
+}
+**********************************************************************
+Q=7
+ANS=
+**********************************************************************
+Q=8
+ANS=#include<bits/stdc++.h>
+using namespace std;
+void cube(int n)
+{
+    if(n<=0)
+        return;
+    cube(n-1);
+    cout<<n*n*n<<" ";
+}
+
+int main()
+{
+    int n=7;
+    cube(n);
+}
+**********************************************************************
+Q=9
+ANS=#include<bits/stdc++.h>
+using namespace std;
+void square(int n)
+{
+    if(n<=0)
+        return;
+    square(n-1);
+    cout<<n*n<<" ";
+}
+
+int main()
+{
+    int n=12;
+    square(n);
+}
+**********************************************************************
+Q=10
+ANS=#include<bits/stdc++.h>
+using namespace std;
+void recursion(int n)
+{
+    if(n<1)
+        return;
+    recursion(n-1);
+    cout<<n<<" ";
+}
+int main()
+{
+    int n;
+    cout<<"Enter the value of n:\n";
+    cin>>n;
+    recursion(n);
+}
+**********************************************************************
+Q=11
+ANS=#include<bits/stdc++.h>
+using namespace std;
+void recursion(int n)
+{
+    if(n<1)
+        return;
+    cout<<n<<" ";
+    recursion(n-1);
+}
+int main()
+{
+    int n;
+    cout<<"Enter the value of n:\n";
+    cin>>n;
+    recursion(n);
+}
+**********************************************************************
+Q=12
+ANS=#include<bits/stdc++.h>
+using namespace std;
+void odd(int n)
+{
+    if(n<1)
+        return;
+    odd(n-2);
+    cout<<n<<" ";
+     
+}
+int main()
+{
+    int n;
+    cout<<"Enter the value of n:\n";
+    cin>>n;
+    odd(n);
+}
+**********************************************************************
+Q=13
+ANS=#include<bits/stdc++.h>
+using namespace std;
+void malti(int n , int m)
+{
+    if(n<=0)
+        return;
+    malti(n-1,5);
+    cout<<n*m<<" ";
+}
+int main()
+{
+    int n;
+    cout<<"Enter the value of n:\n";
+    cin>>n;
+    malti(n,5);
+}
+**********************************************************************
+Q=14
+ANS=#include<bits/stdc++.h>
+using namespace std;
+void sum(int n)
+{
+    if(n<=0)
+        return;
+    sum(n-1);
+    cout<<n+n<<" ";
+}
+
+int main()
+{
+    int n=20;
+    sum(n);
+}
+**********************************************************************
+Q=15
+ANS=#include<bits/stdc++.h>
+using namespace std;
+void square(int n)
+{
+    if(n<1)
+        return;
+    square(n-1);
+    cout<<n*n<<" ";
+}
+
+int main()
+{
+    int n=8;
+    square(n);
+}
+**********************************************************************
+Q=16
+ANS=
+**********************************************************************
+Q=17
+ANS=#include<bits/stdc++.h>
+using namespace std;
+void cube(int n)
+{
+    if(n<=0)
+        return;
+    cube(n-1);
+    cout<<n*n*n<<" ";
+}
+
+int main()
+{
+    int n=9;
+    cube(n);
+}
+**********************************************************************
+Q=18
+ANS=#include<bits/stdc++.h>
+using namespace std;
+void square(int n)
+{
+    if(n<=0)
+        return;
+    square(n-1);
+    cout<<n*n<<" ";
+}
+
+int main()
+{
+    int n=18;
+    square(n);
+}
+**********************************************************************
+Q=19
+ANS=#include<bits/stdc++.h>
+using namespace std;
+void recursion(int n)
+{
+    if(n<1)
+        return;
+   cout<<n<<" ";
+    recursion(n-1);
+     
+}
+int main()
+{
+    int n;
+    cout<<"Enter the value of n:\n";
+    cin>>n;
+    recursion(n);
+}
+************************************************************************
+Q=20
+ANS=#include<bits/stdc++.h>
+using namespace std;
+void recursion(int n)
+{
+    if(n<1)
+        return;
+    cout<<n<<" ";
+    recursion(n-1);
+}
+int main()
+{
+    int n;
+    cout<<"Enter the value of n:\n";
+    cin>>n;
+    recursion(n);
+}
+***********************************************************************
+Q=21
+ANS=#include<bits/stdc++.h>
+using namespace std;
+void recursion(int n)
+{
+    if(n<2)
+        return;
+    recursion(n-2);
+    cout<<n<<" ";
+     
+}
+int main()
+{
+    int n;
+    cout<<"Enter the value of n:\n";
+    cin>>n;
+    recursion(n);
+}
+**************************************************************************
+Q=22
+ANS=#include<bits/stdc++.h>
+using namespace std;
+void malti(int n , int m)
+{
+    if(n<=0)
+        return;
+    malti(n-1,8);
+    cout<<n*m<<" ";
+}
+int main()
+{
+    int n;
+    cout<<"Enter the value of n:\n";
+    cin>>n;
+    malti(n,8);
+}
+************************************************************************
+Q=23
+ANS=#include<bits/stdc++.h>
+using namespace std;
+void sum(int n)
+{
+    if(n<=0)
+        return;
+    sum(n-1);
+    cout<<n+n<<" ";
+}
+
+int main()
+{
+    int n=25;
+    sum(n);
+}
+**************************************************************************
+Q=24
+ANS=#include<bits/stdc++.h>
+using namespace std;
+void square(int n)
+{
+    if(n<=0)
+        return;
+    square(n-1);
+    cout<<n*n<<" ";
+}
+
+int main()
+{
+    int n=9;
+    square(n);
+}
+*********************************************************************************
+Q=25
+ANS=
+********************************************************************************
+Q=26
+ANS=#include<bits/stdc++.h>
+using namespace std;
+void cube(int n)
+{
+    if(n<=0)
+        return;
+    cube(n-1);
+    cout<<n*n*n<<" ";
+}
+
+int main()
+{
+    int n=10;
+    cube(n);
+}
+*************************************************************************************
+Q=27
+ANS=#include<bits/stdc++.h>
+using namespace std;
+void square(int n)
+{
+    if(n<1)
+        return;
+    square(n-1);
+    cout<<n*n<<" ";
+}
+
+int main()
+{
+    int n=15;
+    square(n);
+}
+****************************************************************************************************
+Q=28
+ANS=#include<bits/stdc++.h>
+using namespace std;
+void recursion(int n)
+{
+    if(n<1)
+        return;
+        cout<<n<<" ";
+    recursion(n-1);
+     
+}
+int main()
+{
+    int n;
+    cout<<"Enter the value of n:\n";
+    cin>>n;
+    recursion(n);
+}
+*************************************************************************************************************
+Q=29
+ANS=#include<bits/stdc++.h>
+using namespace std;
+void recursion(int n)
+{
+    if(n<1)
+        return;
+        cout<<n<<" ";
+    recursion(n-1);
+     
+}
+int main()
+{
+    int n;
+    cout<<"Enter the value of n:\n";
+    cin>>n;
+    recursion(n);
+}
+*****************************************************************************************************************
+Q=30
+ANS=#include<bits/stdc++.h>
+using namespace std;
+void odd(int n)
+{
+    if(n<1)
+        return;
+    odd(n-2);
+    cout<<n<<" ";
+     
+}
+int main()
+{
+    int n;
+    cout<<"Enter the value of n:\n";
+    cin>>n;
+    odd(n);
+}
+*************************************************************************************************************
+Q=31
+ANS=#include<bits/stdc++.h>
+using namespace std;
+void malti(int n , int m)
+{
+    if(n<=0)
+        return;
+    malti(n-1,4);
+    cout<<n*m<<" ";
+}
+int main()
+{
+    int n;
+    cout<<"Enter the value of n:\n";
+    cin>>n;
+    malti(n,4);
+}
+*****************************************************************************************************************
+Q=32
+ANS=#include<bits/stdc++.h>
+using namespace std;
+void sum(int n)
+{
+    if(n<=0)
+        return;
+    sum(n-1);
+    cout<<n+n<<" ";
+}
+
+int main()
+{
+    int n=30;
+    sum(n);
+}
+*****************************************************************************************************************
+Q=33
+ANS=#include<bits/stdc++.h>
+using namespace std;
+void square(int n)
+{
+    if(n<=0)
+        return;
+    square(n-1);
+    cout<<n*n<<" ";
+}
+
+int main()
+{
+    int n=10;
+    square(n);
+}
+**************************************************************************************************************
+Q=34
+ANS=
+***************************************************************************************************************
+Q=35
+ANS=#include<bits/stdc++.h>
+using namespace std;
+void cube(int n)
+{
+    if(n<=0)
+        return;
+    cube(n-1);
+    cout<<n*n*n<<" ";
+}
+
+int main()
+{
+    int n=11;
+    cube(n);
+}
+*****************************************************************************************************************
+Q=36
+ANS=#include<bits/stdc++.h>
+using namespace std;
+void square(int n)
+{
+    if(n<=0)
+        return;
+    square(n-1);
+    cout<<n*n<<" ";
+}
+
+int main()
+{
+    int n=20;
+    square(n);
+}
+*************************************************************************************************************************
+Q=37
+ANS=#include<bits/stdc++.h>
+using namespace std;
+void recursion(int n)
+{
+    if(n<1)
+        return;
+        cout<<n<<" ";
+    recursion(n-1);
+     
+}
+int main()
+{
+    int n;
+    cout<<"Enter the value of n:\n";
+    cin>>n;
+    recursion(n);
+}
+*********************************************************************************************************************
+Q=38
+ANS=#include<bits/stdc++.h>
+using namespace std;
+void recursion(int n)
+{
+    if(n<1)
+        return;
+    recursion(n-1);
+    cout<<n<<" ";
+     
+}
+int main()
+{
+    int n;
+    cout<<"Enter the value of n:\n";
+    cin>>n;
+    recursion(n);
+}
+************************************************************************************************************************
+Q=39
+ANS=#include<bits/stdc++.h>
+using namespace std;
+void recursion(int n)
+{
+    if(n<2)
+        return;
+    recursion(n-2);
+    cout<<n<<" ";
+     
+}
+int main()
+{
+    int n;
+    cout<<"Enter the value of n:\n";
+    cin>>n;
+    recursion(n);
+}
+**************************************************************************************************************************
+Q=40
+ANS=#include<bits/stdc++.h>
+using namespace std;
+void malti(int n , int m)
+{
+    if(n<=0)
+        return;
+    malti(n-1,5);
+    cout<<n*m<<" ";
+}
+int main()
+{
+    int n;
+    cout<<"Enter the value of n:\n";
+    cin>>n;
+    malti(n,5);
+}
+************************************************************************************************************************************
